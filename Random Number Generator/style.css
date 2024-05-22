@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: aquamarine;
+    font-family: consolas;
+    text-align: center;
+}
+
+#lbl {
+    font-size: 10em;
+    
+    display: block;
+    margin-top: 150px;
+}
+
+#btn {
+    padding: 5px 10px;
+    box-shadow: 5px 5px;
+    border-radius: 2px;
+    background-color: cadetblue;
+    transition: background-color 0.25s;
+}
+
+#btn:hover {
+    background-color: antiquewhite;
+}
